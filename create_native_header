@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd build/classes
+javah edu.syr.pcpratts.studio.code.jni.JniFirstExample
+cp edu_syr_pcpratts_studio_code_jni_JniFirstExample.h ../../csrc/

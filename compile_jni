@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd csrc
+gcc -fPIC -g -c -I/usr/lib/jvm/java-6-openjdk/include/ -I/usr/lib/jvm/java-6-openjdk/include/linux JniFirstExample.c -o JniFirstExample.o
+gcc -shared -Wl,-soname,jnifirstexample -o ../jni_first_example_x64.so.1 JniFirstExample.o

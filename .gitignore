@@ -1,0 +1,5 @@
+build/
+private/
+dist/
+jni_first_example_x64.so.1
+JniFirstExample.o

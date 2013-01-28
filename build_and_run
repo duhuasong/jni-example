@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ant
+./create_native_header
+./compile_jni
+java -jar dist/jni-example.jar
